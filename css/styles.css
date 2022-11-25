@@ -304,7 +304,46 @@ body.dark {
         grid-template-columns:repeat(3,1fr);
         grid-template-rows:repeat(3,min-content);
         align-items: start;
-}}
+}
+
+
+}
+
+@media screen and (max-width: 480px){
+    .flags__item {
+        width: 20px;
+    }
+
+    .flags {
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+
+    .colors {
+        display: flex;
+        justify-content: space-between;
+        height: 20px;
+        width: 140px;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+    }
+
+
+    .colors__item {
+        width: 15px;
+        height: 15px;
+        border: 1px solid var(--text-color);
+        cursor: pointer;
+        background-color: var(--primary-color);
+        
+        
+    }
+    
+}
 
 .skills {
     padding: 1em 0;
