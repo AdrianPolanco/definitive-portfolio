@@ -314,6 +314,10 @@ body.dark {
         width: 20px;
     }
 
+    .main {
+        align-items: center;
+    }
+
     .flags {
         width: 50px;
         display: flex;
