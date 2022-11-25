@@ -1,0 +1,34 @@
+{
+    "profile": {
+        "rol": "Estudiante de Desarrollo de Software",
+        "description": "¡Mucho gusto! Soy Adrian Polanco, estudio Desarrollo de Software en el Instituto Tecnológico de Las Américas (ITLA) en Santo Domingo, Republica Dominicana.Estoy interesado especialmente en Desarrollo Front-end"
+    },"experience": {
+        "first-job-title": "Estudiante autodidacta",
+        "first-job-date": "Septiembre 2022",
+        "first-job-description": "Me interesé por la industria del desarrollo de software, así que empecé a aprender programación de una manera más comprometida utilizando plataformas como Youtube y Udemy para aprender Python, con lo cual comencé mi camino para ser desarrollador de software.",
+        "second-job-title": "Estudiante universitario",
+        "second-job-date": "Enero 2023",
+        "second-job-description": "Desde enero de 2023 he estado estudiando Desarrollo de Software en el Instituto Tecnológico de Las Américas (ITLA) o, traducido al inglés: Instituto Tecnológico de Las Américas"
+    },"projects": {
+        "first-project-title": "Nombre del projecto",
+        "enter-button": "Entrar",
+        "see-button": "Ver código"
+
+    },"skills": {
+        "experience-information": "Experiencia e información relevante",
+        "first-skills-title": "Desarrollo Front-end",
+        "first-information": "Proyectos hechos con esto",
+        "second-skills-title": "Otras tecnologías",
+        "second-information": "Proyectos hechos con esto",
+        "third-skills-title": "Otros conocimientos en programación",
+        "third-information": "Proyectos hechos con esto",
+        "object-oriented-programming": "P.O.O",
+        "fourth-skills-title": "Idiomas",
+        "fourth-information": "Conocimiento",
+        "first-language": "Español",
+        "second-language": "Inglés",
+        "first-level": "Básico",
+        "second-level": "Avanzado"
+
+    }
+}

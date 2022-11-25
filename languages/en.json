@@ -1,0 +1,35 @@
+{
+
+    "profile": {
+        "rol": "Software Development Student",
+        "description": "Pleased to meet you! I am Adrian Polanco, I study Software Development at Technological Institute of Las Americas (ITLA) in Santo Domingo, Dominican Republic. I am specially interested in Frontend Development."
+    },"experience": {
+        "first-job-title": "Self-taught student",
+        "first-job-date": "Sept 2022",
+        "first-job-description": "I got interested in software development industry, so I started to learn programming in a more committed way using platforms like Youtube and Udemy to learn Python, with which I started my path to be a software developer",
+        "second-job-title": "College Student",
+        "second-job-date": "Jan 2023",
+        "second-job-description": "Starting from January 2023 I have been studying Software Development at Instituto Tecnológico de Las Américas(ITLA) or, translated to English: Technological Institute of Las Americas"
+    },"projects": {
+        "first-project-title": "Project Name",
+        "enter-button": "Enter",
+        "see-button": "See the code"
+
+    },"skills": {
+        "experience-information": "Experience and relevant information",
+        "first-skills-title": "Frontend Development",
+        "first-information": "Projects made with this",
+        "second-skills-title": "Other tecnologies",
+        "second-information": "Projects made with this",
+        "third-skills-title": "Otros programming knowledge",
+        "third-information": "Projects made with this",
+        "object-oriented-programming": "O.O.P",
+        "fourth-skills-title": "Languages",
+        "fourth-information": "Knowledge",
+        "first-language": "Spanish",
+        "second-language": "English",
+        "first-level": "Basic",
+        "second-level": "Advanced"
+
+    }
+}

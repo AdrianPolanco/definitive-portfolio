@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome//5.15.4/css/all.min.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="switches">
+        <div class="toggle-theme" id="toggle-theme">
+          <img src="assets/icons/sun.svg" alt="icon-theme-clear" id="toggle-icon" class="toggle-theme__icons">
+          <p class="toggle-theme__text" id="toggle-text">Light Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="assets/images/spain.svg" alt="spanish" class="flags__img">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="assets/images/uk.svg" alt="english" class="flags__img">
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(172, 86%, 31%)" class="colors__item colors__item--aqua"></div>
+        <div data-color="hsl(64, 84%, 43%)" class="colors__item colors__item--gold"></div>
+        <div data-color="hsl(145, 84%, 33%)" class="colors__item colors__item--springgreen"></div>
+        <div data-color="hsl(337, 86%, 35%)" class="colors__item colors__item--pink"></div>
+        <div data-color="hsla(0, 100%, 50%, 0.685)" class="colors__item colors__item--red"></div>
+        <div data-color="hsl(34, 88%, 52%)" class="colors__item colors__item--orange"></div>
+
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!--PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile-photo.jpg" alt="My profile photo">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Adrian Polanco Ferrer</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol" id="student">Software Development Student</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+
+              <a href="mailto:adferrer0611@gmail.com">adferrer0611@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:18296748857"> +1 (829) 674 8857</a>
+            </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Pleased to meet you! <br> I am Adrian Polanco, I study
+              Software Development at <a href="https://itla.edu.do/">Technological Institute of Las Americas (ITLA)</a> 
+              in Santo Domingo, Dominican Republic. I am specially
+              interested in Frontend Development.
+             
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card--title" data-section="skills" data-value="experience-information">Experience and relevant information</h2>
+          <div class="experience">
+            <img src="assets/images/udemy.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="first-job-date" id="detector">Sept 2022</p>
+              <h3 class="experience__job" data-section="experience" data-value="first-job-title">Self-taught student</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">I got interested in software development industry, so I started to learn programming in a more 
+                committed way using platforms like Youtube and Udemy to learn Python, with which I started my path to be a
+                software developer
+              </p>
+            </div>
+          </div>
+
+          <div class="experience">
+            <img src="assets/images/itla.jpg" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="second-job-date">Jan 2023</p>
+              <h3 class="experience__job" data-section="experience" data-value="second-job-title">College Student</h3>
+              <p class="experience__description" data-section="experience" data-value="second-job-description">Starting from January 2023 I have been studying Software Development
+                at Instituto Tecnológico de Las Américas(ITLA) or, translated to English: Technological Institute of Las Americas<!--, however, before
+                starting officially to study there, I had already been working on my personal projects like this webpage, which I codified in November 2022-->
+              </p>
+            </div>
+          </div>
+        </article>
+    </section>
+
+
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title" data-section="skills" data-value="first-skills-title">Frontend Development</h2>
+        <div class="skills">
+          <small class="years" data-section="skills" data-value="first-information">Projects made with this</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">5</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--05"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--05"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--05"></div>
+          </div>
+        </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title" data-section="skills" data-value="second-skills-title">Other technologies</h2>
+        <div class="skills">
+          <small class="years" data-section="skills" data-value="second-information">Projects made with this</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">5</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Python</p>
+            <div class="skills__bar skills__bar--05"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title" data-section="skills" data-value="third-skills-title">Other programming knowledge</h2>
+      <div class="skills">
+        <small class="years" data-section="skills" data-value="third-information">Projects made with this</small>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">5</span>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech" data-section="skills" data-value="object-oriented-programming">O.O.P</p>
+          <div class="skills__bar skills__bar--10"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech">Responsive</p>
+          <div class="skills__bar skills__bar--05"></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <h2 class="card__title" data-section="skills" data-value="fourth-skills-title">Languages</h2>
+    <div class="skills">
+      <small class="years" data-section="skills" data-value="fourth-information">Knowledge</small>
+      <div class="skills__header">
+        <span class="skills__start-level" data-section="skills" data-value="first-level">Basic</span>
+        <span class="skills__start-level">Advanced</span>
+      </div>
+      <div class="skills__item">
+        <span class="skills__start-level" data-section="skills" data-value="second-level">Advanced</span>
+        <p class="skills__tech" data-section="skills" data-value="first-language">Spanish</p>
+        <div class="skills__bar skills__bar--95"></div>
+      </div>
+      <div class="skills__item">
+        <p class="skills__tech" data-section="skills" data-value="second-language">English</p>
+        <div class="skills__bar skills__bar--50"></div>
+      </div>
+    </div>
+  </article>
+
+    <article class="card card--project">
+      <div class="card__image-container">
+        <img src="assets/images/template.jpg" alt="project-icon" class="card__image">
+      </div>
+      <div class="project">
+        <div class="project__tags">
+          <span class="project__tag">#HTML</span>
+          <span class="project__tag">#CSS</span>
+          <span class="project__tag">#JavaScript</span>
+          <span class="project__tag">#Responsive</span>
+        </div>
+        <h2 class="card__title" data-section="projects" data-value="first-project-title">Project Name</h2>
+        <p class="card__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+          anim id est laborum.
+        </p>
+        
+        <div class="buttons">
+          <a href="#" class="button button--primary" data-section="projects" data-value="enter-button">Enter</a>
+          <a href="#" class="button button--ghost" data-section="projects" data-value="see-button">See the code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card card--project">
+      <div class="card__image-container">
+        <img src="assets/images/template.jpg" alt="project-icon" class="card__image">
+      </div>
+      <div class="project">
+        <div class="project__tags">
+          <span class="project__tag">#HTML</span>
+          <span class="project__tag">#CSS</span>
+          <span class="project__tag">#JavaScript</span>
+          <span class="project__tag">#Responsive</span>
+        </div>
+        <h2 class="card__title" data-section="projects" data-value="first-project-title">Project Name</h2>
+        <p class="card__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+          anim id est laborum.
+        </p>
+        
+        <div class="buttons">
+          <a href="#" class="button button--primary" data-section="projects" data-value="enter-button">Enter</a>
+          <a href="#" class="button button--ghost" data-section="projects" data-value="see-button">See the code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card card--project">
+      <div class="card__image-container">
+        <img src="assets/images/template.jpg" alt="project-icon" class="card__image">
+      </div>
+      <div class="project">
+        <div class="project__tags">
+          <span class="project__tag">#HTML</span>
+          <span class="project__tag">#CSS</span>
+          <span class="project__tag">#JavaScript</span>
+          <span class="project__tag">#Responsive</span>
+        </div>
+        <h2 class="card__title" data-section="projects" data-value="first-project-title">Project Name</h2>
+        <p class="card__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+          anim id est laborum.
+        </p>
+        
+        <div class="buttons">
+          <a href="#" class="button button--primary" data-section="projects" data-value="enter-button">Enter</a>
+          <a href="#" class="button button--ghost" data-section="projects" data-value="see-button">See the code</a>
+        </div>
+      </div>
+    </article>
+    </section>
+    </main>
+
+    
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
